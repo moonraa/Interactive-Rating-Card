@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Interactive-Rating-Card/static/css/main.19874116.css",
+    "main.js": "/Interactive-Rating-Card/static/js/main.cc4b3cd1.js",
+    "index.html": "/Interactive-Rating-Card/index.html",
+    "main.19874116.css.map": "/Interactive-Rating-Card/static/css/main.19874116.css.map",
+    "main.cc4b3cd1.js.map": "/Interactive-Rating-Card/static/js/main.cc4b3cd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19874116.css",
+    "static/js/main.cc4b3cd1.js"
+  ]
+}
