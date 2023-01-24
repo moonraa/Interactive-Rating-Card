@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+  height: 100vh;
+  background-color: #141519;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Active-Card {
+  background-color: #212832;
+  width: 400px;
+  height: 350px;
+  padding: 30px;
+  border-radius: 30px;
+  color: #DEDFE4;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+.star-img{  
+  background-color: #262F38;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+}
+
+.Active-heading {
+  font-weight: 700;
+}
+
+
+.ratings {
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.individual-rating {
+  background-color: #262F38;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: none;
+  font-family: 'Overpass', sans-serif;
+  color: #DEDFE4;
+  font-size: 15px;
+}
+
+.individual-rating:hover{
+  background-color: #7B8898;
+}
+
+.individual-rating:focus{
+  background-color: #F97715;
+}
+
+.Submit-Btn {
+  display: block;
+  background-color: #F97715;
+  color: #DEDFE4;
+  width: 100%;
+  border: none;
+  font-family: 'Overpass';
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Submit-Btn:hover{
+  background-color: #DEDFE4;
+  color: #F97715;
+}
+
+.Submitted-Card {
+  background-color: #212832;
+  width: 400px;
+  height: 350px;
+  padding: 30px;
+  border-radius: 30px;
+  color: #DEDFE4;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.rating-p{
+  background-color: #262F38;
+  color:  #F97715;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
